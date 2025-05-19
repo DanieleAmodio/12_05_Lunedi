@@ -24,9 +24,32 @@
                         <ion-icon name="notifications-outline" style="font-size: 20px; margin-top: 8px;"></ion-icon>
                         <div class="p-blu"></div>
                     </div>
-                    <div class="user">
-                        <img src="assets/avatar-1.jpg" alt="user">
+                              <div class="dropdown text-end">
+                        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="userDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false"> <img src="assets/avatar-1.jpg" alt="user" class="user"></a>
+                        
                         <div class="p-verde"></div>
+                        <ul class="dropdown-menu dropdown-menu-end text-small" aria-labelledby="userDropdown"
+                            style="min-width: 250px;">
+                            <li class="px-3 py-2 d-flex align-items-center">
+                                <img src="assets/avatar-1.jpg" alt="avatar" class="user">
+                                <div>
+                                    <strong>Annette Black</strong><br>
+                                    <small class="text-muted">annette@geeksui.com</small>
+                                </div>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-person me-2"></i>Profile</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-star me-2"></i>Subscription</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-gear me-2"></i>Settings</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-danger" href="#"><i class="bi bi-power me-2"></i>Sign
+                                    Out</a></li>
+                        </ul>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

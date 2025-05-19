@@ -12,7 +12,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    overflow: hidden;
+   /* overflow: hidden;*/
 }
 
 .user img {
@@ -20,178 +20,231 @@
     height: 100%;
     object-fit: cover;
 }
-.p-blu{
+
+.p-blu {
     position: absolute;
-    top: 14px;
-    right: 80px;
+    top: 12px;
+    right: 87px;
     width: 12px;
     height: 12px;
     border-radius: 50%;
     border: 2px solid white;
-    background-color: #7450fc;  
-    
+    background-color: #7450fc;
+
 }
-.p-verde{
+
+.p-verde {
     position: absolute;
-    bottom: 16px;
-    right: 31px;
+    bottom: 4px;
+    right: 13px;
     width: 12px;
     height: 12px;
     border-radius: 50%;
     border: 2px solid white;
-    background-color: green;  
+    background-color: green;
 }
+
 .sfondo {
-    margin:0;
+    margin: 0;
     background-color: #7550ff;
 }
+
 .col-6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.colore{
+
+.colore {
     background-color: #ffeeda;
-    padding-top: 8px;;
-}  
-.vantaggi h5{
+    padding-top: 8px;
+    ;
+}
+
+.vantaggi h5 {
     margin: 0px;
-}  
-.vantaggi p{
+}
+
+.vantaggi p {
     margin: 0px;
     color: grey;
 }
-.vantaggi{margin-left: 7%;}
-main {background-color: #f5f4f9;}
-#corsi{margin-left: 19%;}
+
+.vantaggi {
+    margin-left: 7%;
+}
+
+main {
+    background-color: #f5f4f9;
+}
+
+#corsi {
+    margin-left: 19%;
+}
+
 /* Colore delle frecce */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  filter: invert(50%) grayscale(100%); /* Grigio */
-  background-size: 100%, 100%;
-  width: 1rem;
-  height: 1rem;
+    filter: invert(50%) grayscale(100%);
+    /* Grigio */
+    background-size: 100%, 100%;
+    width: 1rem;
+    height: 1rem;
 }
 
 /* Spostamento delle frecce */
 .custom-arrow {
-  top: 50%;
-  transform: translateY(-50%);
-   
+    top: 50%;
+    transform: translateY(-50%);
+
 }
 
 .carousel-control-prev {
-  left:-135px;
+    left: -135px;
 }
 
 .carousel-control-next {
-  right: 340px;
+    right: 340px;
 }
-#corsi h5{padding-top: 6%; padding-bottom: 3%;}
-.card-title{
+
+#corsi h5 {
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.card-title {
     font-size: 0.9rem;
-}  
-.informazioni{
+}
+
+.informazioni {
     font-size: 0.8rem;
-}  
-.cellular-outline{
+}
+
+.cellular-outline {
     color: #00bfff;
 }
-.valutazione{
+
+.valutazione {
     font-size: 0.6rem;
     color: #fea946;
 }
-.voto{
+
+.voto {
     font-size: 0.9rem;
 }
-.recensioni{
+
+.recensioni {
     font-size: 0.7rem;
     color: #a9a9a9;
 }
-.p-nuovo{
+
+.p-nuovo {
     font-weight: bold;
-} 
-.p-vecchio{
+}
+
+.p-vecchio {
     font-size: 0.6rem;
     color: #a9a9a9;
     text-decoration: line-through;
-     
-}    
-.card-footer .user{
+
+}
+
+.card-footer .user {
     width: 30px;
     height: 30px;
 }
-.card-footer p{
+
+.card-footer p {
     margin: 0;
     font-size: 0.7rem;
 }
-.card-footer p, .salva{
+
+.card-footer p,
+.salva {
     align-self: center;
 }
-.salva{
+
+.salva {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.salva:hover{
+
+.salva:hover {
     translate: 0 2px;
     transform: scale(1.1);
     color: grey;
 }
-.card{
+
+.card {
     margin: 5px;
     transition: all 0.3s ease;
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.04);
     box-shadow: 0 0 15px rgba(0, 0, 0, 1.5);
     border-radius: 10%;
     overflow: auto;
-    
+
 }
-@media  (max-width: 430px) {
+
+@media (max-width: 430px) {
     .navbar-toggler {
         order: 3;
     }
 
 
     .d-flex {
-        
+
         position: relative;
-        
+
         gap: 5px;
     }
-   .p-blu{
-     top: 1px;
-    right: 75%;
-   }
-   .p-verde{
-    bottom: 2px;
-    right: 43%;
-   }
-   .button{
-    margin-right: 0;
-    position: static;
-   }
-   #corsi{margin-left: 0%;padding: 5%;}
-   .carousel-control-prev {
-  left:-40px;
-}
 
-.carousel-control-next {
-  right: -40px;
-}
+    .p-blu {
+        top: 1px;
+        right: 75%;
+    }
+
+    .p-verde {
+        bottom: 2px;
+        right: 43%;
+    }
+
+    .button {
+        margin-right: 0;
+        position: static;
+    }
+
+    #corsi {
+        margin-left: 0%;
+        padding: 5%;
+    }
+
+    .carousel-control-prev {
+        left: -40px;
+    }
+
+    .carousel-control-next {
+        right: -40px;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .d-flex {
         margin-right: 1%;
-         gap: 5px;
+        gap: 5px;
     }
-    .testo{
+
+    .testo {
         margin-top: 8%;
     }
-    .ordine{order:3}
-    .vantaggi{
+
+    .ordine {
+        order: 3
+    }
+
+    .vantaggi {
         flex-wrap: nowrap;
         justify-content: center;
     }
