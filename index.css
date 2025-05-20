@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('assets/fa-regular-400.woff2') format('woff2'),
+         url('assets/feather.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+body {
+    font-family: 'MyCustomFont', sans-serif;
+}
+#Dropdown-menu{
+    min-width: 250px;
+    right: -25px;
+}
 .cerchio {
     width: 40px;
     height: 40px;
@@ -24,7 +38,7 @@
 .p-blu {
     position: absolute;
     top: 12px;
-    right: 87px;
+    right: 77px;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -36,7 +50,7 @@
 .p-verde {
     position: absolute;
     bottom: 4px;
-    right: 13px;
+    right: 2px;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -176,7 +190,7 @@ main {
 }
 
 .card {
-    margin: 5px;
+    margin: 10px;
     transition: all 0.3s ease;
 }
 
@@ -208,8 +222,11 @@ main {
 
     .p-verde {
         bottom: 2px;
-        right: 43%;
+        right: 5%;
     }
+    #Dropdown-menu{
+    right: -70px;
+}
 
     .button {
         margin-right: 0;
